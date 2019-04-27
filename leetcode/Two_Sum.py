@@ -39,7 +39,7 @@ class Solution:
         """Linear Time Solution.
 
         Time Complexity: 0(N) Where N Is Length Of Array
-        Space Complexity: 0(N)
+        Space Complexity: 0(N) Where N Is Size Of HashTable 
         """
         hash_table = dict()
         for i in range(len(nums)):
