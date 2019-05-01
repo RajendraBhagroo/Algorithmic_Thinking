@@ -31,7 +31,9 @@ class Solution:
 
         Assuming List Is Sorted
 
-        Time Complexity: 0(N) Where N Is Length Of Array
+        Time Complexity: 0(N) 
+            - Where N Is Length Of Array [nums]
+
         Space Complexity: 0(1)
         """
         i = 0

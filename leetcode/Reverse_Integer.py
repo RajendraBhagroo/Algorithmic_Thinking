@@ -27,8 +27,11 @@ class Solution:
     def reversed_integer(x: int) -> int:
         """Reverses integer passed to function, based on order not negation.
 
-        Time Complexity: 0(N) Where N Is Size Of Array
-        Space Complexity: 0(N) Where N Is Size Of Solution List
+        Time Complexity: 0(N)
+            - Where N Is Size Of Integer [When Converted To List]
+
+        Space Complexity: 0(N)
+            - Where N Is Size Of Solution List
         """
 
         # Handles Integer Overflow & Underflow For Input
