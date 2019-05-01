@@ -25,7 +25,9 @@ class Solution:
     def two_sum_brute_force(nums: List[int], target: int) -> List[int]:
         """Brute Force Solution.
 
-        Time Complexity: 0(N^2) Where N Is Length Of Array
+        Time Complexity: 0(N^2)
+            - Where N Is Length Of Array [nums]
+
         Space Complexity: 0(1)
         """
         for i in range(len(nums) - 1):
@@ -38,8 +40,11 @@ class Solution:
     def two_sum_hash_table(nums: List[int], target: int) -> List[int]:
         """Linear Time Solution.
 
-        Time Complexity: 0(N) Where N Is Length Of Array
-        Space Complexity: 0(N) Where N Is Size Of HashTable 
+        Time Complexity: 0(N) 
+            - Where N Is Length Of Array [nums]
+
+        Space Complexity: 0(N)
+            - Where N Is Size Of HashTable 
         """
         hash_table = dict()
         for i in range(len(nums)):
