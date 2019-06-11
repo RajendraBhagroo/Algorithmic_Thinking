@@ -69,14 +69,14 @@ class Test(unittest.TestCase):
 
     def test_reversed_integer(self):
         # Out Of Range
-        self.assertEqual(Solution().reversed_integer(2 ** 32), 0)
-        self.assertEqual(Solution().reversed_integer(-2 ** 32), 0)
-        self.assertEqual(Solution().reversed_integer(1534236469), 0)
+        self.assertEqual(Solution.reversed_integer(2 ** 32), 0)
+        self.assertEqual(Solution.reversed_integer(-2 ** 32), 0)
+        self.assertEqual(Solution.reversed_integer(1534236469), 0)
 
         # See Examples
-        self.assertEqual(Solution().reversed_integer(123), 321)
-        self.assertEqual(Solution().reversed_integer(1036500), 56301)
-        self.assertEqual(Solution().reversed_integer(-435532), -235534)
+        self.assertEqual(Solution.reversed_integer(123), 321)
+        self.assertEqual(Solution.reversed_integer(1036500), 56301)
+        self.assertEqual(Solution.reversed_integer(-435532), -235534)
 
 
 if __name__ == "__main__":

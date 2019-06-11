@@ -59,32 +59,32 @@ class Test(unittest.TestCase):
 
     def test_two_sum_brute_force(self):
         self.assertEqual(
-            Solution().two_sum_brute_force(
+            Solution.two_sum_brute_force(
                 [2, 7, 11, 15], 9
             ), [0, 1]
         )
 
         self.assertEqual(
-            Solution().two_sum_brute_force(
+            Solution.two_sum_brute_force(
                 [2, 7, 11, 15], -1
             ), False
         )
 
         self.assertEqual(
-            Solution().two_sum_brute_force(
+            Solution.two_sum_brute_force(
                 [-19, 50, 8, 2, 78, 51], 101
             ), [1, 5]
         )
 
     def test_two_sum_hash_table(self):
         self.assertEqual(
-            Solution().two_sum_hash_table(
+            Solution.two_sum_hash_table(
                 [-6, -1, 2, 20, 9, 10, 1], 21
             ), [3, 6]
         )
 
         self.assertEqual(
-            Solution().two_sum_hash_table(
+            Solution.two_sum_hash_table(
                 [-8, 6, 2, 18, 100, 11], 900
             ), False
         )

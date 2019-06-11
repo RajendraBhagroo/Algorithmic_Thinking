@@ -51,8 +51,8 @@ class Solution:
 class Test(unittest.TestCase):
 
     def test_two_sum_sorted(self):
-        self.assertEqual(Solution().two_sum_sorted([2, 7, 11, 15], 9), [0, 1])
-        self.assertEqual(Solution().two_sum_sorted([2, 7, 11, 15], -1), False)
+        self.assertEqual(Solution.two_sum_sorted([2, 7, 11, 15], 9), [0, 1])
+        self.assertEqual(Solution.two_sum_sorted([2, 7, 11, 15], -1), False)
 
 
 if __name__ == "__main__":

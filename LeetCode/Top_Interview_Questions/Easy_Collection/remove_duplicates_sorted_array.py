@@ -54,17 +54,17 @@ class Test(unittest.TestCase):
 
     def test_remove_duplicates(self):
         # Test Cases From Question
-        self.assertEqual(Solution().remove_duplicates(
+        self.assertEqual(Solution.remove_duplicates(
             [1, 1, 2]
         ), 2)
 
-        self.assertEqual(Solution().remove_duplicates(
+        self.assertEqual(Solution.remove_duplicates(
             [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
         ), 5)
 
         # Custom Test Cases
-        self.assertEqual(Solution().remove_duplicates([]), 0)
-        self.assertEqual(Solution().remove_duplicates([0]), 1)
+        self.assertEqual(Solution.remove_duplicates([]), 0)
+        self.assertEqual(Solution.remove_duplicates([0]), 1)
 
 
 if __name__ == "__main__":
