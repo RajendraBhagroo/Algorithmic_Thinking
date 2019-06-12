@@ -22,7 +22,7 @@ from typing import List
 class Solution:
 
     @staticmethod
-    def find_sum_brute(lst, value):
+    def find_sum_brute(lst: List[int], value: int) -> int:
         """Returns A List Containing Two Numbers Whose Sum Equals [value].
 
         Time Complexity: O(N^2)
@@ -53,7 +53,7 @@ class Solution:
         return found
 
     @staticmethod
-    def find_sum_sorted_complement(lst, value):
+    def find_sum_sorted_complement(lst: List[int], value: int) -> int:
         """Returns A List Containing Two Numbers Whose Sum Equals [value].
 
         Time Complexity: O(N * Log(N))
@@ -70,7 +70,7 @@ class Solution:
                 return [num, value-num]
 
     @staticmethod
-    def find_sum_sorted_slider(lst, value):
+    def find_sum_sorted_slider(lst: List[int], value: int) -> int:
         """Returns A List Containing Two Numbers Whose Sum Equals [value].
 
         Time Complexity: O(N * Log(N))
@@ -99,7 +99,7 @@ class Solution:
         return False
 
     @staticmethod
-    def find_sum_hash_table(lst, value):
+    def find_sum_hash_table(lst: List[int], value: int) -> int:
         """Returns A List Containing Two Numbers Whose Sum Equals [value].
 
         Time Complexity: 0(N) 
@@ -119,7 +119,7 @@ class Solution:
         return False
 
     @staticmethod
-    def find_sum_set(lst, value):
+    def find_sum_set(lst: List[int], value: int) -> int:
         """Returns A List Containing Two Numbers Whose Sum Equals [value].
 
         Time Complexity: 0(N) 
