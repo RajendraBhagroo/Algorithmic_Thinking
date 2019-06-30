@@ -23,10 +23,10 @@ import unittest
 class Solution:
     @staticmethod
     def two_sum_brute_force(nums: List[int], target: int) -> List[int]:
-        """Brute Force Solution.
+        """Brute force solution.
 
         Time Complexity: 0(N^2)
-            - Where N Is Length Of Array [nums]
+            - Where N is length of array [nums]
 
         Space Complexity: 0(1)
         """
@@ -38,13 +38,13 @@ class Solution:
 
     @staticmethod
     def two_sum_hash_table(nums: List[int], target: int) -> List[int]:
-        """Linear Time Solution.
+        """Linear time solution.
 
         Time Complexity: 0(N) 
-            - Where N Is Length Of Array [nums]
+            - Where N is length of array [nums]
 
         Space Complexity: 0(N)
-            - Where N Is Size Of HashTable 
+            - Where N is size of hashTable [hash_table]
         """
         hash_table = dict()
         for i in range(len(nums)):

@@ -22,10 +22,10 @@ class Solution:
 
     @staticmethod
     def remove_even(List_: List[int]) -> List[int]:
-        """Removes All Even Integers In Original List.
+        """Removes all even integers in original list.
 
         Time Complexity: 0(N)
-            - Where N Is Length Of List [List_]
+            - Where N is length of list [List_]
 
         Space Complexity: 0(1)
         """
@@ -41,10 +41,10 @@ class Solution:
     # Alternate Solution
     @staticmethod
     def remove_even_comp(List: List[int]) -> List[int]:
-        """Removes All Even Integers In Original List.
+        """Removes all even integers in original list.
 
         Time Complexity: 0(N)
-            - Where N Is Length Of List
+            - Where N is length of list [List]
 
         Space Complexity: 0(1)
         """

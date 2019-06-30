@@ -27,12 +27,12 @@ import unittest
 class Solution:
     @staticmethod
     def two_sum_sorted(nums: List[int], target: int) -> List[int]:
-        """Returns List Of Indices Contianing Solution [See Problem Example].
+        """Returns list of indices contianing solution [See Problem Example].
 
-        Assuming List Is Sorted
+        Assuming list is sorted
 
         Time Complexity: 0(N) 
-            - Where N Is Length Of Array [nums]
+            - Where N is length of array [nums]
 
         Space Complexity: 0(1)
         """

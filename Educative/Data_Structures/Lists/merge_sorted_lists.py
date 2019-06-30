@@ -23,12 +23,12 @@ class Solution:
 
     @staticmethod
     def merge_sorted_lists(lst1: List[int], lst2: List[int]) -> List[int]:
-        """Merge Two Sorted Lists.
+        """Merge two sorted lists.
 
         Time Complexity: O(m(n+m))
             - Where [n] is length of [lst1]
             - Where [m] is length of [lst2]
-            - Insert Operation Is 0(n), Occurs [m] Times In Worst Case
+            - Insert operation Is 0(n), occurs [m] times in worst case
 
         Space Complexity: O(m)
         """
@@ -49,7 +49,7 @@ class Solution:
 
     @staticmethod
     def merge_sorted_lists_alt(lst1: List[int], lst2: List[int]) -> List[int]:
-        """Merge Two Sorted Lists.
+        """Merge two sorted lists.
 
         Time Complexity: O(m + n)
             - Where [n] is length of [lst1]

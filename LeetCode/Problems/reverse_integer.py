@@ -28,10 +28,10 @@ class Solution:
         """Reverses integer passed to function, based on order not negation.
 
         Time Complexity: 0(N)
-            - Where N Is Size Of Integer [When Converted To List]
+            - Where N is size of integer [When Converted To List]
 
         Space Complexity: 0(N)
-            - Where N Is Size Of Solution List
+            - Where N is size of list [solution]
         """
 
         # Handles Integer Overflow & Underflow For Input

@@ -23,10 +23,10 @@ class Solution:
 
     @staticmethod
     def find_sum_brute(lst: List[int], value: int) -> int:
-        """Returns A List Containing Two Numbers Whose Sum Equals [value].
+        """Returns A list containing two numbers whose sum equals [value].
 
         Time Complexity: O(N^2)
-            - Where [N] Is Length Of List [lst]
+            - Where [N] is length of list [lst]
 
         Space Complexity: O(1)
         """
@@ -54,12 +54,12 @@ class Solution:
 
     @staticmethod
     def find_sum_sorted_complement(lst: List[int], value: int) -> int:
-        """Returns A List Containing Two Numbers Whose Sum Equals [value].
+        """Returns A list containing two numbers whose sum equals [value].
 
         Time Complexity: O(N * Log(N))
-            - Where [N] Is Length Of Array [lst]
-            - Python Uses TimSort From [.sort()] Which Is O(N * Log(N))
-            - Binary Search Incurs O(Log(N)) Time Complexity
+            - Where [N] is length of array [lst]
+            - Python uses TimSort from [.sort()] which is O(N * Log(N))
+            - Binary Search incurs O(Log(N)) time complexity
 
         Space Complexity: O(1)
         """
@@ -71,12 +71,12 @@ class Solution:
 
     @staticmethod
     def find_sum_sorted_slider(lst: List[int], value: int) -> int:
-        """Returns A List Containing Two Numbers Whose Sum Equals [value].
+        """Returns A list containing two numbers whose sum equals [value].
 
         Time Complexity: O(N * Log(N))
-            - Where [N] Is Length Of Array [lst]
-            - Python Uses TimSort From [.sort()] Which Is O(N * Log(N))
-            - Binary Search Incurs O(Log(N)) Time Complexity
+            - Where [N] is length of array [lst]
+            - Python uses TimSort from [.sort()] which is O(N * Log(N))
+            - Binary Search incurs O(Log(N)) time complexity
 
         Space Complexity: O(1)
         """
@@ -100,13 +100,13 @@ class Solution:
 
     @staticmethod
     def find_sum_hash_table(lst: List[int], value: int) -> int:
-        """Returns A List Containing Two Numbers Whose Sum Equals [value].
+        """Returns A list containing two numbers whose sum equals [value].
 
         Time Complexity: 0(N) 
-            - Where [N] Is Length Of Array [lst]
+            - Where [N] is length of array [lst]
 
         Space Complexity: 0(N)
-            - Where [N] Is Size Of HashTable [foundValues]
+            - Where [N] is size of hash table [foundValues]
         """
         foundValues = {}
 
@@ -120,13 +120,13 @@ class Solution:
 
     @staticmethod
     def find_sum_set(lst: List[int], value: int) -> int:
-        """Returns A List Containing Two Numbers Whose Sum Equals [value].
+        """Returns A list containing two numbers whose sum equals [value].
 
         Time Complexity: 0(N) 
-            - Where [N] Is Length Of Array [lst]
+            - Where [N] is length of array [lst]
 
         Space Complexity: 0(N)
-            - Where [N] Is Size Of Set [foundValues]
+            - Where [N] is size of set [foundValues]
         """
         foundValues = set()
         for ele in lst:
